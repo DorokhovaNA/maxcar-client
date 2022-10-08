@@ -1,0 +1,18 @@
+.about {
+  flex: 1 0 auto;
+  margin: 30px 90px;
+}
+
+.about__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font: 700 25px/20px "Montserrat", sans-serif;
+  color: #6f7072;
+}
+
+.about__text {
+  padding: 0 30px;
+  text-align: justify;
+  color: #6f7072;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,45 @@
+.contact-block {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 90px;
+}
+
+.contact-block__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  color: #6f7072;
+}
+
+.contact-block__text {
+  padding: 0 30px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #6f7072;
+  text-align: center;
+}
+
+.contact-block__link {
+  border-bottom: 1px dashed #6f7072;
+  padding: 10px 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #6f7072;
+}
+
+.contact-block__link:hover {
+  opacity: 0.7;
+  color: #6f7072;
+}
+
+.contact-block__map {
+  width: 80vw;
+}

@@ -1,0 +1,222 @@
+.ad-block {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  padding: 24px;
+  width: 60vw;
+  border: 1px solid #0000000f;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #00000038;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.text-input {
+  display: block;
+  width: 100%;
+  position: relative;
+  min-height: 50px;
+  padding: 7px 10px 1px;
+  border-radius: 8px;
+  border: 1px solid #0000001f;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #6f7072;
+  background-color: #fff;
+  box-shadow: 0 4px 24px #0000000a;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.description-input {
+  min-height: 100px;
+  padding-top: 13px;
+  outline: none;
+  overflow-y: scroll;
+}
+
+.description-input::-webkit-scrollbar {
+  width: 7px;
+}
+
+.description-input::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #b8b8b9;
+}
+
+.description-input::-webkit-scrollbar-track {
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+}
+
+.search-input__mg {
+  min-height: 50px !important;
+  margin-left: 2px;
+  outline: none;
+}
+
+.label-input {
+  position: absolute;
+  z-index: 999;
+  margin-top: 2px;
+  margin-left: 12px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(185, 178, 178);
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  position: relative;
+  width: 60vw;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.add-btn:hover {
+  opacity: 0.7;
+  color: #fff;
+}
+
+.add-btn_width {
+  width: 220px;
+}
+
+.field__wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.file-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.file-input__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 3px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.file-input__fake {
+  position: relative;
+  width: calc(100% - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: none;
+  min-height: 50px;
+  padding: 0 15px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #0000001f;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(185, 178, 178);
+  background-color: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 4px 24px #0000000a;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.file-input__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 0 8px 8px 0;
+  width: 100px;
+  height: 50px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.file-input__button:hover {
+  opacity: 0.7;
+  color: #fff;
+}
+
+.file-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.file-preview__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.file-preview__item-text {
+  margin-bottom: 3px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.file-preview__img {
+  position: relative;
+  box-shadow: 1px 5px 5px #0000000a;
+}
+
+.file-preview__btn-delete {
+  position: absolute;
+  margin-top: 9px;
+  margin-left: -10px;
+  border: none;
+  background: transparent;
+  color: #ff0000;
+}
+
+.icon {
+  margin-right: 3px;
+  opacity: 0.7;
+}
+
+.btn-create {
+  color: #6f7072;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-create:hover {
+  opacity: 0.7;
+}

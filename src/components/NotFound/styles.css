@@ -1,0 +1,32 @@
+.notfound-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 auto;
+  align-items: center;
+  margin: 5vh auto;
+}
+
+.notfound-block__title {
+  margin-bottom: 5vh;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  color: #6f7072;
+  text-align: center;
+}
+
+.notfound-block__link {
+  border-bottom: 1px dashed #6f7072;
+  margin-bottom: 19px;
+  margin-top: 5vh;
+  text-decoration: none;
+  color: #6f7072;
+  font-family: "Montserrat", sans-serif;
+}
+
+.notfound-block__link:hover {
+  color: #6f7072;
+  opacity: 0.7;
+}
