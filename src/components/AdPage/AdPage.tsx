@@ -280,7 +280,7 @@ export const AdPage = () => {
                           className="slider-img"
                           loading="lazy"
                           // @ts-ignore
-                          src={`http://localhost:3000/${file.filename}`}
+                          src={`process.env.REACT_APP_SERVER_URL/${file.filename}`}
                           // @ts-ignore
                           alt={file.filename}
                         />

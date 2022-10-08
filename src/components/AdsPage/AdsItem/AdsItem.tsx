@@ -30,7 +30,7 @@ export const AdsItem = ({ ad }: IAdsItemProps) => {
                         loading="lazy"
                         height="140"
                         width="190"
-                        src={`http://localhost:3000/${file.filename}`}
+                        src={`process.env.REACT_APP_SERVER_URL/${file.filename}`}
                         alt={file.filename}
                       />
                     </li>
