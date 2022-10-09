@@ -187,4 +187,8 @@ h6 {
   .ad-item__description {
     width: 100%;
   }
+
+  .ad-item__info-price {
+    margin: 10px auto;
+  }
 }

@@ -38,7 +38,7 @@
   width: 15vw;
   margin-left: 2px;
   margin-right: 2vw;
-  max-height: 40px;
+  min-height: 40px;
   outline: none;
 }
 
@@ -87,6 +87,14 @@
 
 .input-item {
   margin-bottom: 10px;
+}
+
+.title-empty {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #6f7072;
+  opacity: 0.9;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {

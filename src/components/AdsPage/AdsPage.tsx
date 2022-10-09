@@ -44,7 +44,9 @@ export const AdsPage = () => {
           ),
           [store]
         )}
-        {!spinner && !store.length && <h4>Список объявлений пуст</h4>}
+        {!spinner && !store.length && (
+          <h4 className="title-empty">Список объявлений пуст</h4>
+        )}
       </section>
     </div>
   );

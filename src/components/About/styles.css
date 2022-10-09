@@ -16,3 +16,9 @@
   color: #6f7072;
   font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width: 650px) {
+  .about {
+    margin: 30px 10px;
+  }
+}

@@ -195,7 +195,6 @@ span {
 
   .ad-item__title_lg {
     width: 70vw;
-    margin: 0 auto 30px;
   }
 
   .ad-item__info-price_lg {
@@ -218,6 +217,10 @@ span {
 }
 
 @media (max-width: 450px) {
+  .ad-container {
+    margin: 30px 20px;
+  }
+
   .slider-img {
     width: 70vw;
     height: 25vh;
@@ -231,5 +234,13 @@ span {
   .ad__btn-block {
     flex-direction: column;
     margin-left: 5vw;
+  }
+
+  .ad__info {
+    width: 70vw;
+  }
+
+  .ad__description {
+    width: 70vw;
   }
 }

@@ -90,7 +90,7 @@
     margin: 0 auto;
   }
 
-  .footer__logo {
-    margin: 0;
+  .footer-contacts {
+    padding-left: 0;
   }
 }
