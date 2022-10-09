@@ -378,7 +378,7 @@
   }
 
   .main-preview__info {
-    margin: 20px 10px;
+    margin: 20px 10px 20px 0;
   }
 
   .main-preview__text {
@@ -473,7 +473,11 @@
   }
 
   .main-magazine__card-title {
-    font-size: 15 px;
+    font-size: 13px;
+  }
+
+  .main-magazine__card-text {
+    font-size: 11px;
   }
 
   .main-magazine__card-block {

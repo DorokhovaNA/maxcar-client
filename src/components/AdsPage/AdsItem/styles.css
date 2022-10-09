@@ -183,4 +183,8 @@ h6 {
   .ad-item__title {
     text-align: center;
   }
+
+  .ad-item__description {
+    width: 100%;
+  }
 }
