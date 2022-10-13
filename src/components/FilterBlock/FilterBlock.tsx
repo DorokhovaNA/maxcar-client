@@ -1,6 +1,6 @@
 import { MutableRefObject, useRef, useState } from "react";
-import { getAdsFilteredFx } from "../../../api/AdsClient";
-import { setAds } from "../../../context";
+import { getAdsFilteredFx } from "../../api/AdsClient";
+import { setAds } from "../../context";
 import "./styles.css";
 
 export const FilterBlock = () => {

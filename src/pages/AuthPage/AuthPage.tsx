@@ -1,7 +1,7 @@
 import React, { MutableRefObject, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthClient } from "../../api/authClient";
-import { Spinner } from "../Spinner/Spinner";
+import { Spinner } from "../../components/Spinner/Spinner";
 import { handleAlertMessage } from "../../utils/auth";
 import "./styles.css";
 

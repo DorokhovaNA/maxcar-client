@@ -5,11 +5,11 @@ import {
   faXmark,
   faXmarkCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import { createAdFx } from "../../../api/AdsClient";
-import { createAd } from "../../../context";
-import { getAuthDataFromLS, handleAlertMessage } from "../../../utils/auth";
-import { validationInputs } from "../../../utils/validation";
-import { Spinner } from "../../Spinner/Spinner";
+import { createAdFx } from "../../api/AdsClient";
+import { createAd } from "../../context";
+import { getAuthDataFromLS, handleAlertMessage } from "../../utils/auth";
+import { validationInputs } from "../../utils/validation";
+import { Spinner } from "../Spinner/Spinner";
 import "./styles.css";
 
 export const CreateAds = () => {

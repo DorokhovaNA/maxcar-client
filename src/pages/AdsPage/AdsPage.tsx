@@ -2,11 +2,11 @@ import { useStore } from "effector-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { getAdsFx } from "../../api/AdsClient";
 import { $ads, setAds } from "../../context";
-import { Spinner } from "../Spinner/Spinner";
-import { AdsList } from "./AdsList/AdsList";
-import { CreateAds } from "./CreateAds/CreateAds";
+import { Spinner } from "../../components/Spinner/Spinner";
+import { AdsList } from "../../components/AdsList/AdsList";
+import { CreateAds } from "../../components/CreateAds/CreateAds";
 import { $auth } from "../../context/auth";
-import { FilterBlock } from "./FilterBlock/FilterBlock";
+import { FilterBlock } from "../../components/FilterBlock/FilterBlock";
 
 export const AdsPage = () => {
   const [spinner, setSpinner] = useState(false);

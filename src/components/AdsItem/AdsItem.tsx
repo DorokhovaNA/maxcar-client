@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { IAdsItemProps } from "../../../types";
-import { formatDate } from "../../../utils/arrayUtils";
+import { IAdsItemProps } from "../../types";
+import { formatDate } from "../../utils/arrayUtils";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

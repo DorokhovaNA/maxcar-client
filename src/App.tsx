@@ -6,18 +6,18 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import { AdPage } from "./components/AdPage/AdPage";
-import { AdsPage } from "./components/AdsPage/AdsPage";
+import { AdPage } from "./pages/AdPage/AdPage";
+import { AdsPage } from "./pages/AdsPage/AdsPage";
 import { Alert } from "./components/Alert/Alert";
-import { AuthPage } from "./components/AuthPage/AuthPage";
+import { AuthPage } from "./pages/AuthPage/AuthPage";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-import { MainPage } from "./components/MainPage/MainPage";
+import { MainPage } from "./pages/MainPage/MainPage";
 import { $alert } from "./context/alert";
 import { $auth, setAuth, setUsername } from "./context/auth";
 import { getAuthDataFromLS, removeUser } from "./utils/auth";
-import { About } from "./components/About/About";
-import { Contacts } from "./components/Contacts/Contacts";
+import { About } from "./pages/About/About";
+import { Contacts } from "./pages/Contacts/Contacts";
 import { NotFound } from "./components/NotFound/NotFound";
 
 function App() {

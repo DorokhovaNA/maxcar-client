@@ -1,6 +1,6 @@
-import { IAds } from "../../../types";
+import { IAds } from "../../types";
 import { AdsItem } from "../AdsItem/AdsItem";
-import usePagination from "../../../hooks/usePagination";
+import usePagination from "../../hooks/usePagination";
 
 export const AdsList = ({ ads }: { ads: IAds[] }) => {
   const {

@@ -10,7 +10,7 @@ import { $ads, removeAd, updatedAd } from "../../context";
 import { formatDate } from "../../utils/arrayUtils";
 import { getAuthDataFromLS, handleAlertMessage } from "../../utils/auth";
 import { validationInputs } from "../../utils/validation";
-import { Spinner } from "../Spinner/Spinner";
+import { Spinner } from "../../components/Spinner/Spinner";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

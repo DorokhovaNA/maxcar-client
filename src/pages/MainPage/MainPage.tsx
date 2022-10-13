@@ -1,7 +1,7 @@
 import { useStore } from "effector-react";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { AdsItem } from "../AdsPage/AdsItem/AdsItem";
+import { AdsItem } from "../../components/AdsItem/AdsItem";
 import { getAdsFx } from "../../api/AdsClient";
 import { $ads, setAds } from "../../context";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -138,11 +138,9 @@ export const MainPage = () => {
       <div className="main-ads">
         <h5 className="main-ads__subtitle">Последние добавленные объявления</h5>
         <ul className="list-group mt-4">
-          {store
-            .slice(0, 3)
-            .map((ad, index) => (
-              <AdsItem key={ad._id as string} ad={ad} index={index + 1} />
-            ))}
+          {store.slice(0, 3).map((ad, index) => (
+            <AdsItem key={ad._id as string} ad={ad} index={index + 1} />
+          ))}
         </ul>
       </div>
     </section>
