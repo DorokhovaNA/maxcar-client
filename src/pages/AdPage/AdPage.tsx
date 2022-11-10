@@ -1,5 +1,5 @@
 import { MutableRefObject, useRef, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useStore } from "effector-react";
 import Slider from "react-slick";
 import { $auth } from "../../context/auth";
@@ -18,6 +18,8 @@ import "slick-carousel/slick/slick-theme.css";
 export const AdPage = () => {
   const { id } = useParams();
   const store = useStore($ads);
+  const navigate = useNavigate();
+
   const adFromStorage: string | null = window.sessionStorage.getItem(`ad${id}`);
 
   const ad = store.length
@@ -181,8 +183,9 @@ export const AdPage = () => {
 
     setDeleteSpinner(false);
     removeAd(ad!._id as string);
+    navigate("/ads");
     handleAlertMessage({
-      alertText: "Уснешно удалено!",
+      alertText: "Успешно удалено!",
       alertStatus: "success",
     });
   };
@@ -367,6 +370,7 @@ export const AdPage = () => {
                     <option>Универсал</option>
                     <option>Купе</option>
                     <option>Минивэн</option>
+                    <option>Кроссовер</option>
                   </select>
                 ) : (
                   <p>{ad!.body}</p>
@@ -384,6 +388,7 @@ export const AdPage = () => {
                     <option value="" className="d-none"></option>
                     <option>Механическая</option>
                     <option>Автоматическая</option>
+                    <option>Электрическая</option>
                   </select>
                 ) : (
                   <span>{ad!.transmission}</span>

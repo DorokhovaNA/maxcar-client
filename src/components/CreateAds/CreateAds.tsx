@@ -216,6 +216,7 @@ export const CreateAds = () => {
                     <option>Универсал</option>
                     <option>Купе</option>
                     <option>Минивэн</option>
+                    <option>Кроссовер</option>
                   </select>
                 </div>
                 <div className="form-item">
@@ -228,6 +229,7 @@ export const CreateAds = () => {
                     <option value="" className="d-none"></option>
                     <option>Механическая</option>
                     <option>Автоматическая</option>
+                    <option>Электрическая</option>
                   </select>
                 </div>
                 <div className="form-item">

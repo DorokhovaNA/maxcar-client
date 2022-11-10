@@ -28,8 +28,8 @@ export const AdsItem = ({ ad }: IAdsItemProps) => {
                       <img
                         className="slider__img"
                         loading="lazy"
-                        height="140"
-                        width="190"
+                        height="90"
+                        width="210"
                         src={`${process.env.REACT_APP_SERVER_URL}/${file.filename}`}
                         alt={file.filename}
                       />
