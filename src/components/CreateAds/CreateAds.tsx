@@ -279,7 +279,7 @@ export const CreateAds = () => {
                                   className="file-preview__img"
                                   loading="lazy"
                                   height="100"
-                                  width="150"
+                                  width="210"
                                   src={URL.createObjectURL(file)}
                                   alt={file.name}
                                 />

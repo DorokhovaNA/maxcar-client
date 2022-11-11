@@ -60,7 +60,7 @@ span {
 
 .slider_size_lg {
   margin: 15px 0;
-  height: 480px;
+  height: 300px;
   width: 670px;
 }
 
@@ -145,7 +145,7 @@ span {
 
 .slider-img {
   width: 670px;
-  height: 470px;
+  height: 290px;
 }
 
 .ad-status {
@@ -223,12 +223,12 @@ span {
 
   .slider-img {
     width: 70vw;
-    height: 25vh;
+    height: 18vh;
   }
 
   .slider_size_lg {
     width: 70vw;
-    height: 25vh;
+    height: 19vh;
   }
 
   .ad__btn-block {
