@@ -37,7 +37,7 @@ export const AdsPage = () => {
       {isLoggedIn ? <CreateAds /> : ""}
       <FilterBlock />
       <section style={{ position: "relative" }}>
-        {spinner && <Spinner top={0} left={0} />}
+        {spinner && <Spinner top={0} left={450} />}
         {useMemo(
           () => (
             <AdsList ads={store} />

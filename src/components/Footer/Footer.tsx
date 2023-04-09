@@ -26,7 +26,7 @@ export const Footer = () => {
                         гарантируя отличные цены и сроки доставки.
                     </p> */}
         <div className="footer__right">
-          <p className="footer__text">
+          {/* <p className="footer__text">
             Новая Москва, поселение Воскресенское, деревня Расторопово,
             дом&nbsp;80.
             <br />
@@ -41,7 +41,7 @@ export const Footer = () => {
                 здесь.
               </a>
             </span>
-          </p>
+          </p> */}
           <div className="footer-contacts">
             <a href="tel:+79262182893" className="footer-contacts__links">
               <FontAwesomeIcon icon={faPhone} />

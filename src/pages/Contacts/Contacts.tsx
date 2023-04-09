@@ -18,7 +18,7 @@ export const Contacts = () => {
           Наш основной сайт
         </a>
       </div>
-      <div className="d-flex flex-column mt-3">
+      {/* <div className="d-flex flex-column mt-3">
         <p className="contact-block__text">
           Будем рады Вас видеть по адресу: Москва, поселение Воскресенское,
           деревня Расторопово, дом 80
@@ -37,7 +37,7 @@ export const Contacts = () => {
             </a>
           </span>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
